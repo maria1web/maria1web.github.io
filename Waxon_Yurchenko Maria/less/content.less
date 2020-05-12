@@ -1,0 +1,21 @@
+.content {
+	width: 100%;
+	border: @border;
+	&-txt {
+		width: @width/3;
+		margin: 0 auto;
+		text-align: justify;
+		color: @color-p;
+		.txt()
+	}
+	&-link {
+		text-decoration: none;
+		.text(verdana, 14px, normal);
+		&:hover {
+			color: lighten(@basic-color, 10);
+		}
+		&:active {
+			color: darken(@basic-color, 10);
+		}
+	}
+}
