@@ -1831,17 +1831,17 @@ body {
 
     .vid-mid-info {
         width: 70%;
-        top: 13%;
+        top: 10%;
         left: 15%;
     }
 
     .circle-play-btn {
         transform: scale(0.6);
-        margin: 10px;
+        margin: 0;
     }
 
     .info-1st-row {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .vid-descr {
@@ -2353,29 +2353,29 @@ body {
 
     .vid-mid-info {
         width: 35%;
-        top: 1%;
+        top: -12%;
         left: 13%;
         margin-bottom: 0;
     }
 
     .circle-play-btn {
         transform: scale(0.4);
-        margin: 10px;
+        margin: 0;
     }
 
     .info-1st-row {
-        font-size: 16px;
+        font-size: 13px;
         margin-top: -25px;
     }
 
     .vid-descr {
         margin-bottom: 10px;
-        font-size: 10px;
-        line-height: 1.5;
+        font-size: 8px;
+        line-height: 1.2;
     }
 
     .vid-timing {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .circle-play-btn:hover .icon-play-circle {
