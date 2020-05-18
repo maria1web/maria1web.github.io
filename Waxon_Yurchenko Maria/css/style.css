@@ -1560,7 +1560,6 @@ body {
     visibility: visible;
 }
 
-
 .mobile-menu-label:hover .burger {
     background-color: #c7b299;
 }
@@ -1572,7 +1571,6 @@ body {
 .mobile-menu-label:hover .burger:before {
     background-color: #c7b299;
 }
-
 
 #menu-mob-check:checked ~ .burger {
     background: none;
