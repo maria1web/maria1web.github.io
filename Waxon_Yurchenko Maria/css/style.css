@@ -1261,17 +1261,20 @@ body {
 
 /*-------------LOGOS OF PARTNERS----------------*/
 
+
 .logo-partners {
     width: 100%;
-    box-sizing: border-box;
-    background: no-repeat center/100% url("../img/bg-mountains.jpg");
+    box-sizing: border-box;    
+    background:      
+      linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/bg-mountains.jpg")
+      no-repeat
+      center/100%;      
 }
 
 .logo-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;    
 }
 
 .part-logo-link {
