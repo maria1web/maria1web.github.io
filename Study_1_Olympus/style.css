@@ -1,0 +1,514 @@
+/*-------      для всех листов      -------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+
+    font-family: Montserrat, sans-serif;
+    /*background-color: #f8f8f8;*/
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #eee;
+    background-image: url(imgs/Natural-Paper-Background-Texture-HD1.jpg);
+    border-bottom: 2px solid crimson;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.content {
+    background-color: #fff;
+    /*background-image: url(imgs/3olympus2.jpg); 
+    background-size: cover;
+    */
+    height: 653px;
+}
+
+/*-------      для футера у всех листов      -------*/
+.footer {
+    height: 100px;
+    background-color: #ccc;
+    border-top: 2px solid crimson;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: right;
+
+}
+
+.rights {
+    padding-top: 35px;
+    padding-right: 35px;
+    font-style: italic;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+hr {
+    border: none;
+    /*Убираем границу */
+    background-color: crimson;
+    /* Цвет линии */
+    height: 2px;
+    margin-bottom: 3px;
+    margin-top: ;
+}
+
+/*-------      для логотипа в шапке у всех листов      -------*/
+.logo {
+    margin-left: 50px;
+    float: left;
+    padding-top: 30px;
+}
+
+/*-------      для шапки у всех листов      -------*/
+.header .menu {
+    /* border: 3px dotted lightcyan;*/
+    text-align: right;
+    list-style-type: none;
+    padding-top: 40px;
+
+}
+
+.header .menu li {
+    font: oblique bold 15px Montserrat;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header .menu li a:visited {
+    color: Purple;
+}
+
+.header .menu li a:hover {
+    color: indianred;
+}
+
+.header .menu li a:active {
+    color: darkgreen;
+}
+
+.header .menu li a {
+    color: #008080;
+}
+
+
+/*-------      для листа index      -------*/
+img[alt="photo_oly_pen"] {
+    border: none;
+}
+
+.img_ind {
+    text-align: center;
+}
+
+.ind_h1 {
+    text-align: center;
+    font: bold 40px Montserrat, sans-serif;
+    color: indianred
+}
+
+.ind_h2,
+.ind_txt {
+    padding-left: 20px;
+}
+
+/*-------      ссылка "каталоге" в 1 абзаце     -------*/
+#lnk_cat:visited {
+    color: Purple;
+}
+
+#lnk_cat:hover {
+    color: indianred;
+}
+
+#lnk_cat:active {
+    color: darkgreen;
+}
+
+#lnk_cat {
+    color: #008080;
+}
+
+/*-------  ссылка "Назад" на крупном фото товара     -------*/
+
+.lnk_bck_big:visited {
+    color: Purple;
+}
+
+.lnk_bck_big:hover {
+    color: indianred;
+}
+
+.lnk_bck_big:active {
+    color: darkgreen;
+}
+
+.lnk_bck_big {
+    color: #008080;
+}
+
+/*-------      для листа catalog      -------*/
+
+.content_catalog {
+    padding-top: 1px;
+    background-image: url(imgs/Retro_OlympusCamera.jpg);
+    background-size: cover;    
+    height: 500px;
+}
+
+.tab_catalog {
+    margin-left: 15px;
+    border: 1px solid;
+    /*  border-color: transparent;
+    border-collapse: separate;
+    border-spacing: 6px;*/
+    border-radius: 10px;
+    width: 760px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.tab_catalog tr {
+    height: 100px;
+    text-align: center;
+}
+
+/*определение свойств для всех строк таблицы*/
+
+/*.tab_catalog td{
+    border: 2px solid white;}
+.tab_catalog td {border-top: 2px solid white;}*/
+
+.tab_catalog tr:first-child a:visited {
+    color: Purple;
+}
+
+.tab_catalog tr:first-child a:hover {
+    color: indianred;
+}
+
+.tab_catalog tr:first-child a:active {
+    color: darkgreen;
+}
+
+.tab_catalog tr:first-child a {
+    color: #008080;
+}
+
+/*определяем свойства 1-й строки таблицы*/
+
+
+.img_hover:hover {
+    outline: 2px solid #008080;
+    /* Цветная рамка */
+}
+
+/*-------  для листов товара каталога, в частности item_page    -------*/
+
+.content_itm_pg {
+    background-color: #fff;
+    /*background-image: url(imgs/3olympus2.jpg); 
+    background-size: cover; height: 1390px*/
+   box-sizing: content-box;
+}
+
+.heading_itm {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 1000;
+    background-color: #eaeaea;
+}
+
+.itm_img_outline {
+    outline: 2px solid teal;
+    margin-left: 20px;
+}
+
+a .itm_img_outline:hover {
+    outline: none;
+}
+
+.itm_img {
+    width: 300px;
+    float: left;
+}
+
+.shrt_desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    padding-top: 0px;
+}
+
+.shrt_desc_p::first-letter {
+    font-family: "Times New Roman";
+    font-style: bold;
+    font-size: 300%;
+    color: crimson;
+}
+
+.but_buy {
+    margin-top: 40px;
+    text-align: center
+}
+
+.button_buy {
+    width: 500px;
+    height: 50px;
+    font: 16px Montserrat;
+    color: crimson;
+    border: 1px solid #708090;
+    border-radius: 10px;
+}
+
+.button_buy:hover {
+    font: 18px Montserrat;
+    color: gold;
+    border: 2px solid #708090;
+    background: gainsboro;
+}
+
+.button_buy:active {
+    font: bold 18px Montserrat;
+    border: 1px solid #708090;
+}
+
+.itm_char {
+    margin-top: 40px;
+}
+
+.full_desc_p {
+    color: #707070;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 0px;
+    /*color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    background-color: #e6e6fa*/
+}
+
+.full_desc_p::first-letter {
+    font-family: "Times New Roman";
+    font-style: bold;
+    font-size: 300%;
+    color: crimson;
+}
+
+/*ol li {
+
+    color: #484343;
+    font-size: 12px;
+    color: #8b008b;
+    font-weight: bolder;
+    line-height: 30px;
+    list-style-position:inside; 
+    text-align: right;
+    background-color: #e0ffff
+}*/
+
+.char_list {
+    list-style: outside url(imgs/ph_icion_small.png);
+    /*иконки вместо маркеров*/
+}
+
+/*-------                  таблица                -------*/
+
+.table_char {
+    margin: auto;
+    /* border: 1px solid red;*/
+    width: 760px;
+    border-collapse: collapse
+        /*border-spacing: 10px; - - добавляет расстояние между границами ячеек (а-ля margine)*/
+}
+
+.table_char tr {
+    height: 60px;
+}
+
+/*определение свойств для всех строк таблицы*/
+.table_char td {
+    /*определение свойств для всех ячеек таблицы*/
+    border: 2px solid purple;
+    padding-top: 5px;
+    /*  padding-left: 5px;
+    vertical-align: middle  - работает только внутри ячейки таблицы*/
+    text-align: center
+}
+
+.table_char tr:first-child {
+    background-color: #9db;
+    height: 100px;
+    vertical-align: middle;
+    font: bold 20px Montserrat, sans-serif;
+}
+
+/*определяем свойства 1-й строки таблицы*/
+
+/*.td_1 {
+    background-color: lightblue
+}
+.td_2 {
+    background-color: lavender
+}
+.td_3 {
+    background-color: lightpink
+}
+.td_4 {
+    background-color: lightcyan;
+    border-color: darkcyan;
+   /* border-left-color: darkcyan;
+border-top-color: darkcyan;}    - бэсполэзно (((*/*/
+
+.content_img {
+    margin-top: 5px;
+}
+
+.content_itmpg {
+    text-align: center;
+}
+
+/*-------      для листа contacts      -------*/
+
+.content_contacts{
+    box-sizing: border-box;
+}
+.content_contacts h1 {
+    text-align: center;
+}
+.form_feedback {
+    width: 600px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+.form_feedback h2 {
+    text-align: center;
+}
+
+.model {
+    border: 2px solid cadetblue;
+    width: 370px;
+    height: 150px;
+
+    padding: 5px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid cadetblue;
+    text-transform: capitalize;
+    background-color: #e4e7ec;
+    color: darkblue;
+    font: italic 12px montserrat;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input[type=email] {
+    width: 293px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid cadetblue;
+    background-color: #e4e7ec;
+    color: darkblue;
+    font: italic 12px montserrat;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+input[type=password] {
+    width: 190px;
+    border: 2px solid cadetblue;
+    font: italic 12px montserrat;
+    background-color: #e4e7ec;
+    color: darkblue;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 23px;
+    padding: 5px;
+}
+
+input[type="text"]::placeholder {
+    color: cadetblue;
+}
+
+input[type="email"]::placeholder {
+    color: cadetblue;
+}
+
+input[type="password"]::placeholder {
+    color: cadetblue;
+}
+
+textarea::placeholder {
+    color: cadetblue;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid indianred;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 390px;
+    box-sizing: border-box;
+    border: 2px solid cadetblue;
+    background-color: #e4e7ec;
+    color: darkblue;
+    font: italic 12px montserrat;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input[value] {
+    width: 176px;
+    height: 50px;
+    font: bold 14px montserrat;
+    outline: 1px solid cadetblue;
+    border-radius: 4px;
+    background-color: #e4e7ec;
+}
+
+input[value="Отправить"] {
+    color: firebrick;
+    margin-right: 17px;
+}
+
+input[value="Очистить"] {
+    color: darkgreen;
+    margin-left: 17px;
+}
+
+input[value]:hover {
+    font: bold 15px Montserrat;
+    color: crimson;
+    outline: 2px solid cadetblue;
+    background: #e4e7ec;
+    border-radius: 4px;
+}
+
+input[value]:active {
+    font: bold 16px Montserrat;
+    outline: 1px solid cadetblue;
+}
