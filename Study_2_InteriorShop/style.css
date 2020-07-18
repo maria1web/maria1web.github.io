@@ -1,0 +1,1080 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    max-width: 1366px;
+    min-width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding_site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+
+/*------Footer--------*/
+.clr {
+    height: 384px;
+}
+
+.footer {
+    max-width: 1170px;
+    margin: -384px auto;
+    height: 384px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.contacts {
+    margin-top: 120px;
+    float: left;
+    list-style-type: none;
+    position: absolute;
+}
+
+.cont_block {
+    margin-right: 66px;
+    float: left;
+}
+
+.cont_block1 {
+    margin-right: 26px;
+    float: left;
+}
+
+.cont_head {
+    padding-bottom: 20px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.cont_div {
+    padding-top: 20px;
+    float: left;
+    padding-right: 73px;
+}
+
+.cont_list {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    list-style-type: none;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+
+}
+
+.cont_link {
+    text-decoration: none;
+    color: #212121;
+}
+
+.adress1 {
+    width: 372px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: 0px;
+    list-style-type: none;
+    line-height: 22px;
+}
+
+.adress {
+    width: 225px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: 0px;
+    list-style-type: none;
+    line-height: 22px;
+}
+
+.email {
+    margin-top: 26px;
+    list-style-type: none;
+}
+
+input[type=email] {
+    width: 350px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+
+}
+
+input[placeholder="your e-mail adress"] {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-left: 19px;
+}
+
+.submit {
+    margin-left: -36px;
+    width: 21px;
+    height: 17px;
+    border: none;
+}
+
+.bottom {
+    margin-top: 326px;
+    float: left;
+    text-align: center;
+    position: absolute;
+}
+
+.basement {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+    float: left;
+    list-style-type: none;
+    margin-right: 120px;
+}
+
+.basement1 {
+    padding-left: 64px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+    float: right;
+    list-style-type: none;
+}
+
+.base_pad {
+    padding-top: 8px;
+
+}
+
+.terms {
+    text-decoration: none;
+    color: #6c6c6c;
+}
+
+/*------Home Page (index)--------*/
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu_list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu_link {
+    /* Style for "PRODUCTS" */
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu_link:hover {
+    color: #212121;
+}
+
+.menu_link_active {
+    /* Text style for "HOME" */
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider_text {
+    margin-top: 283px;
+}
+
+.slider_trending {
+    /* Style for "TRENDING" */
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    /*line-height: 48px;*/
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.slider_h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.slider_content {
+    /* Style for "Seat and b" */
+    width: 458px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 212px;
+    height: 45px;
+    -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+}
+
+.button:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle_active {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #212121;
+    margin-bottom: 0px;
+}
+
+.tab_control {
+    float: left;
+    border-bottom: 1px solid #212121;
+    margin-top: 120px;
+}
+
+.tab_c_list {
+    list-style-type: none;
+    float: left;
+}
+
+/* Style for "New" */
+.tab_c_link {
+    color: #6c6c6c;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0px 20px 0px 9px;
+}
+
+.tab_c_link_active:hover {
+
+    color: #212121;
+    padding: 0px 20px 0px 9px;
+    border-bottom: 3px solid #212121;
+}
+
+.explore_all {
+    float: right;
+    margin-top: 140px;
+}
+
+.explore_list {
+    list-style-type: none;
+    float: left;
+}
+
+.explore_link {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    padding-right: 12px;
+}
+
+.explore_link:hover {
+    border-bottom: 1px solid #212121;
+
+}
+
+.promo {
+    margin-top: 50px;
+}
+
+.promo_img {
+    float: left;
+    position: relative;
+}
+
+.promo_list {
+    width: 270px;
+    height: 270px;
+    list-style-type: none;
+    float: left;
+    padding-right: 30px;
+
+}
+
+.promo_list1 {
+    width: 270px;
+    height: 270px;
+    list-style-type: none;
+    float: right;
+}
+
+.promo_link:hover {
+    outline: 1px solid #6c6c6c;
+}
+
+.blur {
+    float: left;
+    margin-left: -1170px;
+    position: absolute;
+}
+
+.hov_name {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 63px;
+    margin-top: 129px;
+    position: absolute;
+}
+
+.hov_details {
+    /* Style for "Seat and b" */
+    color: #6c6c6c;
+    width: 216px;
+    height: 33px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.91px;
+    text-align: center;
+    display: block;
+    margin-top: 169px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.hov_button {
+    width: 48px;
+    height: 48px;
+    -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-top: 62px;
+    margin-left: 111px;
+    float: inherit;
+    position: absolute;
+}
+
+.arr {
+    padding: 19px;
+}
+
+.hov_button:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.promo_big {
+    margin-top: 120px;
+}
+
+.promo_b_img {
+    float: left;
+    position: relative;
+}
+
+.promo_b_list {
+    width: 683px;
+    height: 683px;
+    list-style-type: none;
+    float: left;
+}
+
+.promo_b_text {
+    margin-top: 228px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.promo_b_text1 {
+    margin-top: 228px;
+    margin-left: 730px;
+    position: absolute;
+}
+
+.promo_b_ex {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.promo_b_name {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.promo_b_content {
+    /* Style for "Seat and b" */
+    width: 374px;
+
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+}
+
+.promo_b_but {
+    width: 212px;
+    height: 45px;
+    -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    margin-top: 34px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+}
+
+.promo_b_but:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.trending {
+    margin-top: 120px;
+}
+
+.trend_prod {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.explore_trend {
+    float: right;
+    margin-top: -27px;
+}
+
+.trend_img {
+    margin-top: 64px;
+}
+
+.trend_list {
+    width: 370px;
+    height: 370px;
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.trend_list1 {
+    width: 370px;
+    height: 370px;
+    list-style-type: none;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.trend_link:hover {
+    outline: 1px solid #6c6c6c;
+}
+
+.slider_hot_deal {
+    margin-top: 90px;
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    position: relative;
+}
+
+.hot_deal_text {
+    margin-top: 287px;
+    position: absolute;
+}
+
+.hot_deal {
+    /* Style for "TRENDING" */
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    /*line-height: 48px;*/
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.hot_deal_h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.hot_deal_content {
+    /* Style for "Seat and b" */
+    width: 458px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hot_deal_but {
+    width: 212px;
+    height: 45px;
+    -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+}
+
+.hot_deal_but:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.exclusive {
+    margin-top: 120px;
+}
+
+.exclusive_img {
+    float: left;
+    position: relative;
+}
+
+.exclusive_list1 {
+    width: 570px;
+    height: 570px;
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+}
+
+.exclusive_list {
+    width: 270px;
+    height: 270px;
+    list-style-type: none;
+    float: left;
+    margin: 0px 30px 30px 0px;
+    /*margin-right: 30px;
+      margin-bottom: 30px;*/
+}
+
+.exclusive_list2 {
+    width: 270px;
+    height: 270px;
+    list-style-type: none;
+    float: right;
+    margin: 0px 0px 30px 0px;
+    /*margin-bottom: 30px;*/
+}
+
+.exclusive_text {
+    margin-top: 186px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.exclusive_prod {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.exclusive_h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.exclusive_content {
+    /* Style for "Seat and b" */
+    width: 374px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+}
+
+.exclusive_but {
+    width: 212px;
+    height: 45px;
+    -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    margin-top: 34px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+}
+
+.exclusive_but:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.exclusive_link:hover {
+    outline: 1px solid #6c6c6c;
+}
+
+.follow {
+    margin-top: 90px;
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+    position: relative;
+}
+
+.follow_text {
+    margin-top: 125px;
+    position: absolute;
+}
+
+.follow_app {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    /*line-height: 48px;*/
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.follow_h2 {
+    width: 472px;
+    height: 116px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+.follow_content {
+    /* Style for "Seat and b" */
+    width: 458px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 33px;
+}
+
+.follow_but {
+    float: left;
+    position: absolute
+}
+
+.follow_img {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+/*------Products Page--------*/
+.header_choice {
+    height: 360px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.header_h1 {
+    /* Style for "Our Produc" */
+    color: #212121;
+    font-size: 62px;
+    font-weight: 200;
+    margin-top: 150px;
+}
+
+.menu_purpose {
+    margin-top: 70px;
+    float: left;
+}
+
+.m_purp_list {
+    float: left;
+    list-style-type: none;
+    display: block;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 10px 0px 13px 0px;
+    border-bottom: 1px solid #212121;
+}
+
+.m_purp_list1 {
+    float: left;
+    list-style-type: none;
+    display: block;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 10px 0px 13px 0px;
+}
+
+.m_purp_link {
+    /* Style for "PRODUCTS" */
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.m_purp_link:hover {
+    color: #212121;
+}
+
+.m_purp_link_active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.upload {
+    margin: 40px 565px;
+}
+
+.promo_big2 {
+    margin-top: 140px;
+}
+
+/*-------Contact------*/
+
+.office {
+    margin-top: 70px;
+}
+
+.office_block {
+    float: left;
+}
+
+.office_list {
+    width: 370px;
+    height: 370px;
+    list-style-type: none;
+    /*background-image: url(img/back370.svg);*/
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 122px;
+
+}
+
+.office_list1 {
+    width: 370px;
+    height: 370px;
+    list-style-type: none;
+    /*background-image: url(img/back370.svg);*/
+    float: right;
+    margin-bottom: 122px;
+
+}
+
+.office_link:hover {
+    outline: 1px solid #6c6c6c;
+}
+
+.office_txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.office_txt_lst {
+    margin-top: 40px;
+    margin-left: 30px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.loc_details {
+    color: #6c6c6c;
+    width: 370px;
+}
+
+/*------Product_details-------*/
+
+.choose_menu_det {
+    margin-top: 30px;
+    width: 1366px;
+    height: 70px;
+    background-color: #f4f4f4;
+
+}
+
+.menu_details {
+    margin-top: 13px;
+    padding-left: 360px;
+    float: left;
+    text-align: center;
+}
+
+.m_det_list {
+    float: left;
+    list-style-type: none;
+    display: block;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 10px 0px 13px 0px;
+}
+
+.m_det_link {
+    /* Style for "PRODUCTS" */
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.m_det_link:hover {
+    color: #212121;
+}
+
+.m_det_link_active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.details {
+    padding-top: 72px;
+}
+
+.details_img {
+    padding-left: 98px;
+    float: left;
+    padding-right: 61px;
+}
+
+.choose_color {
+    float: left;
+    padding-left: 150px;
+    width: 420px;
+    height: 75px;
+}
+
+.choose_color_list {
+    float: left;
+    margin-left: 2px;
+    list-style-type: none;
+}
+
+.choose_color_link:hover {
+    outline: 1px solid #6c6c6c;
+}
+
+.details_text {
+    padding-top: 48px;
+    width: 500px;
+    float: right;
+    padding-right: 132px;
+}
+
+.det_name {
+    text-align: center;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.det_deal {
+
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48.02px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.price {
+    margin-top: 25px;
+    color: #212121;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48.02px;
+    text-align: center;
+    /* Text style for "" 
+    font-size: 48px;
+    /* Text style for "36.7" */
+    /* font-size: 72px;
+    text-transform: uppercase;*/
+}
+
+.price_cur {
+    margin-top: 20px;
+    color: #212121;
+    font-size: 48px;
+    font-weight: 300;
+
+}
+
+.det_content {
+    margin-top: 49px;
+    width: 502px;
+    height: 245px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.01px;
+    /* Text style for "The majest" */
+    letter-spacing: 0.4px;
+}
+
+.det_but {
+    margin-top: 50px;
+    width: 510px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #f44336;
+    -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    text-align: center;
+    display: inline-block;
+    /* Text style for "Order Us" */
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.01px;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+    text-decoration: none;
+}
+
+.but_ord {
+    padding-top: 17px;
+}
+
+.det_but:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.tr_space {
+    height: 125px;
+}
